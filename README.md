@@ -53,7 +53,12 @@ Dashboard interaktif dibangun untuk memvisualisasikan:
   - Dampak lembur (OverTime) dan pendapatan (MonthlyIncome) terhadap keputusan resign.
   - Distribusi karyawan berisiko tinggi berdasarkan prediksi model.
 
-3. Akses Dashboard: Link Dashboard Tableau
+3. Akses Dashboard:
+
+https://public.tableau.com/views/HRANALYTICSDAHSBOARD_17475104696060/JayaJayaMajuHRInsightsDashboard?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
+
+
 
 # Conclusion
 
