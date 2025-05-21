@@ -26,14 +26,14 @@ Agar proyek ini berjalan lancar,ada beberapa langkah-langkah yang disusun secara
    Pada proyek ini karena di bangun dan dijalankan menggunakan Google Colab,sehingga tidak menggunakan virtual environment sehingga untuk langkah ini menggunakan environment yang sudah siap pakai di Colab. Namun jika misalnya akan dijalankan secara lokal maka harus menggunakan virtual environment dan dijalankan diterminal local seperti berikut.
 
 
-# Membuat virtual environment
-python -m venv env
+- Membuat virtual environment
+     - python -m venv env
 
-# Mengaktifkan (Windows)
-env\Scripts\activate
+- Mengaktifkan (Windows)
+     - env\Scripts\activate
 
-# Mengaktifkan (Mac/Linux)
-source env/bin/activate
+- Mengaktifkan (Mac/Linux)
+     - source env/bin/activate
    
 
 3. Menginstal Dependensi dari requirements.txt
@@ -46,11 +46,11 @@ source env/bin/activate
    Proyek ini dijalankan di Google Colab, sehingga cukup membuka file .ipynb dan menjalankannya sel-sel notebook-nya secara berurutan.
 Namun, jika telah mengubahnya menjadi file Python .py, berikut cara mengeksekusinya:
 
-python nama file.py
+- python nama file.py
 
 Jika skrip menerima parameter, contoh perintah:
 
-python nama file.py --input data/employee_attrition.csv --model logistic
+- python nama file.py --input data/employee_attrition.csv --model logistic
 
 
 
