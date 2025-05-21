@@ -1,5 +1,59 @@
 # Proyek Akhir: Menyelesaikan Permasalahan Perusahaan Edutech
 
+
+# Persiapan Proyek
+
+Agar proyek ini berjalan lancar,ada beberapa langkah-langkah yang disusun secara sistematis seperti berikut.
+
+1. Sumber data
+
+   Dataset yang digunakan dalam proyek ini adalah dataset attrition karyawan dari Dicoding Academy. Data ini dapat diakses melalui tautan berikut:
+
+- Nama file: employee_attrition.csv
+- Tautan Unduh:
+
+  https://github.com/dicodingacademy/dicoding_dataset/tree/main/employee
+
+
+  - Cara akses di Google Colab
+
+    !wget https://github.com/dicodingacademy/dicoding_dataset/raw/main/employee/employee_attrition.csv
+
+
+
+2. Membuat dan Mengaktifkan Virtual Environment
+
+   Pada proyek ini karena di bangun dan dijalankan menggunakan Google Colab,sehingga tidak menggunakan virtual environment sehingga untuk langkah ini menggunakan environment yang sudah siap pakai di Colab. Namun jika misalnya akan dijalankan secara lokal maka harus menggunakan virtual environment dan dijalankan diterminal local seperti berikut.
+
+
+# Membuat virtual environment
+python -m venv env
+
+# Mengaktifkan (Windows)
+env\Scripts\activate
+
+# Mengaktifkan (Mac/Linux)
+source env/bin/activate
+   
+
+3. Menginstal Dependensi dari requirements.txt
+
+   Karena proyek ini dijalankan di Colab,sehingga untuk mendapatkan file requirement.txt menggunakan perintah '!pip freeze > requirements.txt'. Namun jika menjalankannya dilocal dapat diinstal dengan perintah 'pip install -r requirements.txt'.
+
+
+4. Menjalankan Skrip Python
+
+   Proyek ini dijalankan di Google Colab, sehingga cukup membuka file .ipynb dan menjalankannya sel-sel notebook-nya secara berurutan.
+Namun, jika telah mengubahnya menjadi file Python .py, berikut cara mengeksekusinya:
+
+python nama file.py
+
+Jika skrip menerima parameter, contoh perintah:
+
+python nama file.py --input data/employee_attrition.csv --model logistic
+
+
+
 # Business Understanding
 
 # Latar Belakang Bisnis
